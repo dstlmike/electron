@@ -4,8 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    
-    "start": "electron ."
+    "install": "npm install",
+    "elec": "electron .",
+    "start": "npm run install && npm run elec"
     
   },
   "repository": "https://github.com/electron/electron-quick-start",
