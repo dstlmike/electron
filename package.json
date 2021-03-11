@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "go": "npm install",
-    "start": "npm go && electron ."
+    "elec": "electron .",
+    "start": "npm run go && npm run elec"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
