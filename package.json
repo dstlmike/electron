@@ -6,7 +6,7 @@
   "scripts": {
     "install": "npm install",
     "elec": "electron .",
-    "start": "npm run install && npm run elec"
+    "start": "npm run elec"
     
   },
   "repository": "https://github.com/electron/electron-quick-start",
